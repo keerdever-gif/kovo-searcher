@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kovo-searcher"
+version = "0.2.0"
+description = "Web search and page reading tools for AI agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "ddgs>=9.0",
+  "aiohttp>=3.9,<4",
+  "beautifulsoup4>=4.12,<5",
+  "lxml>=5,<6",
+]
+
+[project.optional-dependencies]
+browser = ["browser-use>=0.13.13,<0.14", "python-dotenv>=1,<2"]
+dev = ["pytest>=8,<9", "pytest-asyncio>=0.23,<2"]
+
+[project.scripts]
+kovo = "kovo_searcher.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kovo_searcher*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
