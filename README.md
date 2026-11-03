@@ -1,25 +1,20 @@
 # Kovo Searcher
-<<div align="center">
+<div align="center">
   <img src="Imagenes/kovo.gif" width="100%" alt="Kovo-Searcher Banner">
   
   <br>
   <br>
 
-  <a href="https://github.com/keerdever-gif/kovo-searcher/releases"><img src="https://img.shields.io/badge/version-0.2.0-blue.svg" alt="Version"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.10%2B-yellow.svg" alt="Python"></a>
-  <a href="https://github.com/keerdever-gif/kovo-searcher/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-green.svg" alt="License"></a>
-  <img src="https://img.shields.io/badge/status-active-brightgreen.svg" alt="Status">
+  <a href="https://github.com/keerdever-gif/kovo-searcher/releases"><img src="https://img.shields.io/badge/version-0.2.0-blue?style=for-the-badge" alt="Version"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.10%2B-yellow?style=for-the-badge" alt="Python"></a>
+  <a href="https://github.com/keerdever-gif/kovo-searcher/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-green?style=for-the-badge" alt="License"></a>
+  <img src="https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge" alt="Status">
 </div>
 
 <br>
 
 # Kovo Searcher
 **Search, read, and browse the web from Python agents.**
-Kovo Searcher is a small web-research toolkit for AI agents...
-**Search, read, and browse the web from Python agents.**
-
-Kovo Searcher is a small web-research toolkit for AI agents. It combines a fast search-and-read path with an optional Browser Use agent for JavaScript-heavy and interactive websites.
-
 ## Features
 
 - DuckDuckGo search with normalized results, relevance scoring, retries, and an in-memory cache.
