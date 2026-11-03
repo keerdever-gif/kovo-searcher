@@ -12,9 +12,6 @@
 </div>
 
 <br>
-
-# Kovo Searcher
-**Search, read, and browse the web from Python agents.**
 ## Features
 
 - DuckDuckGo search with normalized results, relevance scoring, retries, and an in-memory cache.
